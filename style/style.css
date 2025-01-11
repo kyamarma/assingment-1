@@ -11,10 +11,12 @@ body {
     background-color: #f8f4f4;
 }
 
+
 .banner {
     border-radius: 24px;
     background-color: #C6E4D6;
     display: flex;
+    gap: 64px;
 }
 
 .banner_titel {
@@ -34,8 +36,13 @@ body {
 }
 
 .button{
-    border-radius: 8px;
-    background-color: #006A50;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 13px 26px;
+        background-color: #006A50;
+        border-radius: 8px;
+        color: #fff;
+        border: none;
 }
 .banner_btn{
     font-size: 18px;
@@ -97,6 +104,12 @@ body {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 32px;
+    color: #0e0e0ead;
+}
+
+.btn:hover{
+    background-color: #000;
+    color: #fff;
 }
 
 
@@ -184,4 +197,80 @@ body {
     border-radius: 8px;
     color: #fff;
     border: none;
+}
+
+
+
+
+
+/*donate*/
+.donate{
+    width: 100% auto;
+    text-align: center;
+    margin: 80px 0;
+}
+.donate_title{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.donate_taka{
+    width: 240px;
+    height: 128px;
+    margin-right: 24px;
+    padding: 24px;
+    font-size: 40px;
+    font-weight: bold;
+    border: none;
+    border-radius: 16px;
+    background-color: #fff;
+}
+.donate_taka:hover{
+    background-color: #C6E4D6;
+}
+.donate_input{
+    width: 65% ;
+    height: 64px;
+    font-size: 20px;
+    padding: 20px 40px;
+    text-align: center;
+    margin: 32px 0px;
+}
+.donate_button{
+    padding: 17px 34px;
+    border-radius: 8px;
+}
+
+
+
+/*footer*/
+footer{
+    text-align: center;
+    padding: 80px 256px;
+    background-color: #C6E4D6;
+}
+.footer_titel{
+    font-size: 40px;
+    font-weight: bold;
+}
+.footer_p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.footer_flex{
+    display: flex;
+}
+.footer_input{
+    width: 65% ;
+    height: 40px;
+    font-size: 20px;
+    padding: 20px 40px;
+    margin: 32px 0px 0px 50px;
+}
+.footer_button{
+    height: 85px;
+    font-size: 20px;
+    margin: 32px 0px;
+    padding: 20px 40px;
+    background-color: #09A15C;
 }
